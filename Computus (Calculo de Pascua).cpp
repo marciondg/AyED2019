@@ -81,7 +81,7 @@ if(mes==3)
     }
 }
 if(mes==2){
-    if((anio%4==0 && anio%100!=0)||anio%400==0) //El año puede ser bisiesto o no
+    if((anio%4==0 && anio%100!=0)||anio%400==0) //El aÃ±o puede ser bisiesto o no
         dia=29;
     else
         dia=28;
